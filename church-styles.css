@@ -1,0 +1,421 @@
+body {
+  background-color: #b3e6ff;
+  font-family: "Roboto", sans-serif;
+  margin:0;
+}
+
+/* header styles */
+header {
+  background-color: #0000ff;
+  color: #ffffff;
+  padding: 10px;
+}
+
+footer {
+	width: 100%;
+}
+
+.align-items-center{
+	align-items: center !important;
+}
+
+/* Church Name */
+.church_name {
+  margin: auto;
+  font-size: 24px;
+  padding-left: 50px;
+  color: #fff;
+  line-height: 1.0
+}
+
+/* Navigation link styles */
+.nav-list {
+	list-style: none;
+	text-align: right;
+	padding-right: 200px;
+	color: #ffffff;
+}
+
+.nav-list li a {
+    font-weight: bold;
+	color:#ffffff;
+    font-size: 18px;
+	text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-list li a:hover {
+    color: #ff0000;
+	/* Change the color on hover */
+}
+
+.title {
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 50px;
+	color: #0000ff;	
+}
+
+.top {
+	font-size: 60px;
+	text-align: center;
+	padding-top:150px;
+}
+
+.google-map {
+     padding-bottom: 50%;
+     position: relative;
+}
+
+.google-map iframe {
+     height: 60%;
+     width: 60%;
+     left: 20%;
+     top: 0;
+     position: absolute;
+}
+
+
+	
+.mission {
+	margin-left: 25px;
+	padding-top: 300px;
+	display: inline-block;
+}
+
+.headline {
+	margin-top: 100px;	
+	font-size: 60px;
+	font-weight: 600;
+	text-align: center;
+	color: #0000ff;
+}
+
+.subtitle {
+	margin-top: 60px;
+	font-size: 36px;
+	text-align: center;
+	color: #0000ff;
+}
+	
+
+.ypsi_mission {
+	text-align: left;
+	margin-top: 40px;
+	text-align: left;
+	font-size: 30px;
+	display: inline-block;
+	color: #0000ff;
+}
+
+.after_list {
+	text-align: center;
+	font-size: 28px;
+	color: #0000ff;
+	
+}
+
+.conclusion {
+	text-align: center;
+	font-size: 40px;
+	font-weight: 700;
+	color: #0000ff;
+}
+
+
+
+
+
+.blue-background {
+	background-color: #0000ff;
+}
+
+.light-blue-background {
+	background-color: #b3e6ff;
+}
+
+
+
+
+/* this is the footer*/	
+
+.row, .footer{
+	margin-bottom: 30px;
+}
+
+.Logo, .address {
+   box-sizing: border-box;
+   display: inline-block;
+   text-align: center;
+   padding-top: 20px;
+   padding-bottom: 10px;
+   background-color:#0000ff;
+   color: #ffffff;
+}
+  
+div.button img{
+	cursor: pointer;
+	transition-duration: 0.8s;
+	margin-left: 35%;
+	padding-top: 75px;
+}
+		
+#start {
+	display: inline;
+}
+	
+#hover{
+	display: none;
+}
+	
+#click{
+	display: none;
+}
+	
+div.button:hover #start {
+	display:none;
+}
+	
+div.button:hover #hover {
+	display: inline;
+}
+	
+div.button:hover #click {
+	display: none;
+}
+	
+div.button:active #start {
+	display:none;
+}
+	
+div.button:active #hover {
+	display: none;
+}
+	
+div.button:active #click {
+	display: inline;
+}
+		
+			
+/* this is for Who We Are page*/
+div.title2 {
+	width: 100%;
+	background-color: #b3e6ff;
+	font-family: "Roboto", sans-serif;
+	color: #0000ff;
+	text-align: center;
+	padding-top: 0.75em;
+	font-weight: 600;
+	
+}
+	
+div.subtitle2 {
+	width: 100%;
+	background-color: #0000ff;
+	font-family: "Roboto", sans-serif;
+	color: #ffffff;
+	text-align: center;
+	font-size: 4rem;
+	font-weight: 400;
+}
+
+div.container2 {	
+	height: auto;
+	line-height: 1em;
+	font-weight: 600;
+	width: 100%;
+	background-color:#b3e6ff;
+	color:#333399;
+	font-size: 2rem;
+	padding: 2em;
+	margin-bottom: 3em;
+}	
+
+  
+ li {
+	margin: 10px 0px;
+ }
+ 
+ /* this is for What We Believe page*/
+ 
+ 
+ div.container3 {
+	text-align: center;
+	font-size: 50px;
+	text-decoration: underline;
+	height: auto;
+	font-weight: 600;
+	color: #0000ff;
+	margin-top: 2em;
+	margin-bottom: 0.5em;
+	 }
+ 
+ div.container4 {
+	text-align: center;
+	font-size: 30px;
+	line-height: 1em;
+	font-weight: 600;
+	display:inline-block;
+ }
+ 
+ div.container5 {
+	text-align: left;
+	font-size: 40px;
+	padding-left: 100px;
+	padding-right: 50px;
+	padding-top: 100px;
+	font-weight: 600;
+	color: #0000ff;
+ }
+ 
+  div.container6 {
+	text-align: left;
+	font-size: 24px;
+	padding-left: 150px;
+	padding-right: 100px;
+	font-weight: 600;
+	line-height: 1.5;
+ }
+
+ /* this is for Bible Study Resources page*/
+ 
+div.row3 h1 {
+		text-align: center;
+		padding-top: 150px;
+		color: #0000ff;
+		font-size: 5vw;
+}
+
+div.row3 h2 {
+		text-align: left;
+		padding-top: 50px;
+		padding-bottom: 50px;
+		margin-left: 50px;
+		color: #0000ff;
+		font-size: 40px;
+}
+
+div.container7{
+	display: inline-block;
+	max-width: 100%;
+	height: auto;
+	position: relative;
+	gap: 10px;
+	margin-left: 10px;
+	margin-top: 20px;
+	padding-top: 20px;
+}
+
+div.row4 h2 {
+		text-align: left;
+		padding-top: 200px;
+		padding-bottom: 50px;
+		margin-left: 10px;
+		color: #0000ff;
+		font-size: 40px;
+}
+
+
+div.container8{
+	display: inline-block;
+	max-width: 100%;
+	height: auto;
+	position: relative;
+	gap: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 50px;
+}
+
+ 
+ /* this is for Contact Us page*/
+ 
+ div.contact-title{
+	 display: inline-block;
+	 text-align: center;
+	 padding-top: 50px;
+	 padding-bottom: 50px;
+	 background-color: #ffffff;
+	 font-size: 40px;
+	 font-weight: 600;
+	 color: #0000ff;
+	 width: 100%; 	 
+ }
+ 
+ div.hear{
+	 text-align: center;
+	 font-size: 32px;
+	 color: #0000ff;
+	 font-weight: 400;
+	 padding-top: 100px;
+	 padding-left: 20px;
+	 
+ }
+ 
+ div.info{
+	 margin: auto;
+	 text-align: center;
+	 font-size: 20px;
+	 color: #000000;
+	 font-weight: 300;
+	 line-height: 0.5em;
+	 padding-top: 100px;
+	 
+ }
+ 
+ div.ChurchPic{
+	 margin: auto;
+	 margin-bottom: 100px;
+	 padding: 10%;
+}
+ 
+.responsive{
+	 width: 100%;
+	 height: auto;
+ }
+ 
+  /* This is for the contact us form*/
+  /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 24px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type=email], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 24px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+ }
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #0000ff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a lighter blue color */
+input[type=submit]:hover {
+  background-color: #b3e6ff;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #0000ff;
+  padding: 20px;
+  margin-bottom: 250px;
+} 
