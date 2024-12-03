@@ -6,6 +6,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 	<link href="church-styles.css" rel="stylesheet">
 </head>
 
@@ -19,16 +20,40 @@
 				<p>Loving Our Neighbor</p>
 			</div>
 				
-			<div class="col">
-				<ul class="nav-list"> 
-					<li><a href="index.html">Home</a>
-					<li><a href="Who_We_Are.html">Who We Are</a>
-					<li><a href="What_We_Believe.html">What We Believe</a>
-					<li><a href="Bible_Study_Resources.html">Bible Study Resources</a>
-					<li><a href="Contact_Us.html">Contact Us</a>
-				</ul>
-			</div>
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+				<div class="container-fluid">
+        
+					<!-- Hamburger Icon for Collapsing -->
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<!-- Collapsible Navbar -->
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav ms-auto">
+							<li class="nav-item">
+								<a class="nav-link active" href="index.html">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="Who_We_Are.html">Who We Are</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="What_We_Believe.html">What We Believe</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="Bible_Study_Resources.html">Bible Study Resources</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="Contact_Us.html">Contact Us</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+
+			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 		</div>
+		
 	</header>
 
 	<div class="row"> 

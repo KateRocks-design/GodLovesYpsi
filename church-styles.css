@@ -28,36 +28,39 @@ footer {
   line-height: 1.0
 }
 
-/* Navigation link styles */
-.nav-list {
-	list-style: none;
-	text-align: right;
-	padding-right: 200px;
-	color: #ffffff;
+
+
+
+/* Customize the Navbar Brand */
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
 }
 
-.nav-list li a {
-    font-weight: bold;
-	color:#ffffff;
+/* Customize the Navbar Links */
+.nav-link {
+    color: #ffffff;
     font-size: 18px;
-	text-decoration: none;
+    font-weight: bold;
     transition: color 0.3s ease-in-out;
 }
 
-.nav-list li a:hover {
-    color: #ff0000;
-	/* Change the color on hover */
-}
 
+/* Customize the Hamburger Icon */
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" fill="%23fff" viewBox="0 0 30 30"%3E%3Cpath stroke="rgba(255, 255, 255, 0.5)" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E');
+}
+	
 .title {
 	text-align: center;
-	padding-top: 100px;
+	padding-top: 36px;
 	padding-bottom: 50px;
 	color: #0000ff;	
 }
 
 .top {
-	font-size: 60px;
+	font-size: 30px;
 	text-align: center;
 	padding-top:150px;
 }
@@ -85,7 +88,7 @@ footer {
 
 .headline {
 	margin-top: 100px;	
-	font-size: 60px;
+	font-size: 30px;
 	font-weight: 600;
 	text-align: center;
 	color: #0000ff;
@@ -93,7 +96,7 @@ footer {
 
 .subtitle {
 	margin-top: 60px;
-	font-size: 36px;
+	font-size: 24px;
 	text-align: center;
 	color: #0000ff;
 }
@@ -103,21 +106,23 @@ footer {
 	text-align: left;
 	margin-top: 40px;
 	text-align: left;
-	font-size: 30px;
+	font-size: 20px;
 	display: inline-block;
 	color: #0000ff;
 }
 
 .after_list {
 	text-align: center;
-	font-size: 28px;
+	font-size: 18px;
+	margin-top: 40px;
 	color: #0000ff;
 	
 }
 
 .conclusion {
 	text-align: center;
-	font-size: 40px;
+	font-size: 28px;
+	margin-top: 40px;
 	font-weight: 700;
 	color: #0000ff;
 }
@@ -226,15 +231,17 @@ div.container2 {
 	width: 100%;
 	background-color:#b3e6ff;
 	color:#333399;
-	font-size: 2rem;
-	padding: 2em;
-	margin-bottom: 3em;
+	font-size: 24px;
+	padding: 50px;
+	margin-bottom: 200px;
 }	
 
   
  li {
 	margin: 10px 0px;
  }
+
+
  
  /* this is for What We Believe page*/
  
@@ -252,65 +259,67 @@ div.container2 {
  
  div.container4 {
 	text-align: center;
-	font-size: 30px;
-	line-height: 1em;
+	font-size: 20px;
+	line-height: 2em;
 	font-weight: 600;
 	display:inline-block;
  }
  
  div.container5 {
-	text-align: left;
-	font-size: 40px;
+	text-align: center;
+	font-size: 30px;
 	padding-left: 100px;
 	padding-right: 50px;
 	padding-top: 100px;
-	font-weight: 600;
-	color: #0000ff;
+	font-weight: 500;
  }
  
   div.container6 {
-	text-align: left;
-	font-size: 24px;
-	padding-left: 150px;
-	padding-right: 100px;
-	font-weight: 600;
+	text-align: center;
+	font-size: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	font-weight: 400;
 	line-height: 1.5;
  }
+ 
+
+
 
  /* this is for Bible Study Resources page*/
  
-div.row3 h1 {
+div.headline p {
 		text-align: center;
-		padding-top: 150px;
+		padding-top: 100px;
+		margin-bottom: 100px;
 		color: #0000ff;
-		font-size: 5vw;
+		font-size: 50px;
 }
 
-div.row3 h2 {
+div.subheadline p {
 		text-align: left;
-		padding-top: 50px;
-		padding-bottom: 50px;
+		padding-top: 100px;
 		margin-left: 50px;
 		color: #0000ff;
 		font-size: 40px;
 }
 
 div.container7{
-	display: inline-block;
-	max-width: 100%;
+	display: block;
+	justify-content: center;
 	height: auto;
-	position: relative;
-	gap: 10px;
-	margin-left: 10px;
-	margin-top: 20px;
+	gap: 30px;
+	margin: auto;
 	padding-top: 20px;
+	padding-left: 50px;
+	text-align: center;
 }
 
 div.row4 h2 {
 		text-align: left;
 		padding-top: 200px;
 		padding-bottom: 50px;
-		margin-left: 10px;
+		margin-left: 50px;
 		color: #0000ff;
 		font-size: 40px;
 }
@@ -318,13 +327,13 @@ div.row4 h2 {
 
 div.container8{
 	display: inline-block;
-	max-width: 100%;
 	height: auto;
 	position: relative;
-	gap: 10px;
+	gap: 30px;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	margin-bottom: 50px;
+	margin-left: 100px;
 }
 
  
